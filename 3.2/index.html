@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HomeTask3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo&display=swap" rel="stylesheet">
 </head>
 <body>
-
+<main>
+    <form>
+        <section class="Name">
+            <p>
+                <label for="firstname">Name:</label>
+            </p>
+            <input type="text" name="FirstName" id="firstname">
+        </section>
+        <section class="Email">
+            <p>
+                <label for="email">Email:</label>
+            </p>
+            <input type="email" name="Email" id="email">
+        </section>
+        <section class="Message">
+            <p>
+                <label for="message">Message:</label>
+            </p>
+            <textarea name="Message" id="message"></textarea>
+        </section>
+        <section class="submit">
+            <p>
+                <input type="submit" value="Submit" formmethod="get" formaction="index.html" class="button">
+            </p>
+        </section>
+    </form>
+</main>
 </body>
 </html>
