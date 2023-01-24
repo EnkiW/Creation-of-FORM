@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HomeTask3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo&display=swap" rel="stylesheet">
+</head>
+<body>
+<form>
+    <p>
+        <label for="firstname">First Name</label>
+        <input type="text" name="FirstName" id="firstname" placeholder="Enter first name">
+    </p>
+    <p>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="LastName" id="lastname" placeholder="Enter last name">
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input type="email" name="Email" id="email">
+    </p>
+    <p>
+        <label for="message">Message</label>
+        <textarea name="Message" id="message"></textarea>
+    </p>
+    <p>
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </p>
+    <p>
+        <label for="age">Age</label>
+        <input type="number" name="Age" id="age" value="36" min="1" max="99">
+    </p>
+    <p>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="Birthday" id="birthday">
+    </p>
+    <p>
+        <input type="submit" value="Submit" formmethod="get" formaction="index.html">
+    </p>
+</form>
+</body>
+</html>
